@@ -1,6 +1,6 @@
 {
   "name": "dinocomics-scraper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "fetches the title, url, and transciption of Ryan North's Dinosaur Comics",
   "main": "index.js",
   "scripts": {
@@ -13,12 +13,12 @@
   "author": "lonnen",
   "license": "Apache-2.0",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.9",
-    "sync-fetch": "^0.3.0"
+    "cheerio": "^1.0.0",
+    "sync-fetch": "^0.5.2"
   },
   "devDependencies": {
-    "eslint": "^7.26.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.2"
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0"
   }
 }
