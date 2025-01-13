@@ -9,7 +9,7 @@ const serializeComic = (bq) => {
     title = label.children[0].data;
   }
   const url = label.attribs.href;
-  const text = bq.children[1].data;
+  const text = bq.children[1].data.split('\n\n');
   const id = parseInt(url.split('=')[1], 10);
   return {
     title,
